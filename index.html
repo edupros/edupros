@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #35424a;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 2em;
+    }
+
+    .contact-details {
+      margin-top: 2em;
+      padding: 1em;
+      background-color: #e0e0e0;
+    }
+
+    .search-container {
+      text-align: center;
+      margin-top: 2em;
+    }
+
+    .search-input {
+      padding: 8px;
+      width: 60%;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .search-button {
+      padding: 8px 16px;
+      background-color: #35424a;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .navigation {
+      text-align: center;
+      margin-top: 2em;
+    }
+
+    .navigation a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #35424a;
+    }
+
+    .image-container {
+      display: inline-block;
+      margin: 10px;
+      text-align: center;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+    <h1>Welcome to our website</h1>
+  </header>
+
+  <div class="search-container">
+    <h2>Search</h2>
+    <form action="/search" method="get">
+      <input type="text" class="search-input" name="www.google.com" placeholder="Search this site...">
+      <button type="submit" class="search-button">Search</button>
+    </form>
+  </div>
+
+  <div class="navigation">
+    <a href="https://www.khanacademy.org/science/chemistry" target="_blank">Chemistry</a>
+    <a href="https://www.khanacademy.org/science/biology" target="_blank">Biology</a>
+    <a href="https://www.khanacademy.org/science/physics" target="_blank">Physics</a>
+    <a href="https://chat.openai.com/" target="_blank">Chat GPT</a>
+    <a href="https://gamma.app/" target="_blank">Gama AI</a>
+    <a href="#">Climate Change</a>
+    <a href="#">Practicum</a>
+    <a href="#">French</a>
+  </div>
+
+  <div class="container">
+    <h2>About Us</h2>
+    <p>This website is dedicated to providing information about various subjects, including chemistry, biology, and physics.</p>
+    <p>Whether you're a student looking for study resources or simply curious about the fascinating world of science, you've come to the right place.</p>
+  </div>
+
+  <section id="links">
+    <h2>Useful Links</h2>
+    <ul>
+      <li><a href="https://www.youtube.com/" target="_blank">YouTube Science Videos</a></li>
+      <li><a href="https://docs.google.com/forms/u/0/" target="_blank">Quizzes & Worksheets</a></li>
+      <li><a href="https://classroom.google.com/" target="_blank">Virtual Classes</a></li>
+    </ul>
+  </section>
+    
+<header>
+  <h1>Welcome to the Discussion Forum</h1>
+</header>
+
+<div class="container">
+  <div id="registration-form">
+    <h2>Register</h2>
+    <form action="register.php" method="post">
+      <input type="text" name="username" placeholder="Username">
+      <input type="email" name="email" placeholder="Email">
+      <input type="password" name="password" placeholder="Password">
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+
+  <div id="login-form">
+    <h2>Login</h2>
+    <form action="login.php" method="post">
+      <input type="text" name="username" placeholder="Username">
+      <input type="password" name="password" placeholder="Password">
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <div id="post-form">
+    <h2>Create a New Post</h2>
+    <form action="create-post.php" method="post">
+      <input type="text" name="title" placeholder="Post Title">
+      <textarea name="content" placeholder="Post Content"></textarea>
+      <button type="submit">Create Post</button>
+    </form>
+  </div>
+
+  <div id="forum">
+    <!-- Display forum threads and posts -->
+  </div>
+</div>
+
+<!-- Include your scripts and any other necessary resources here -->
+
+  </div>
+
+  <div class="container">
+    <h2>Team and other detail</h2>
+
+    <div class="row">
+  <div class="col-md-4">
+    <div class="image-container">
+      <img src="img_prosper.jpg" alt="Teacher" width="400" height="300">
+      <p>Lead developer</p>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="image-container">
+      <img src="img_practicum1.jpg" alt="Teacher" width="400" height="300">
+      <p>Project by Purity Khadija and Prosper</p>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="image-container">
+      <img src="img_Khadija.jpg" alt="Prosper" width="400" height="300">
+      <p>Developer</p>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="image-container">
+      <img src="img_teacher.jpg" alt="Prosper" width="400" height="300">
+      <p>Gender workshop</p>
+    </div>
+  </div>
+</div>
+
+      <div class="col-md-4">
+        <div class="image-container">
+          <img src="img_prosper2.jpg" alt="Prosper 2" width="400" height="300">
+          <p>Prosper attending mental health workshop.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="contact-details">
+    <h2>Contact Information</h2>
+    <p>This website is owned by A group of three.</p>
+    <p>For inquiries, you can reach out to us:</p>
+    <ul>
+      <li>Phone: 0718032551</li>
+      <li>Email: prosperakyoo84@gmail.com</li>
+    </ul>
+  </div>
+
+</body>
+
+</html>
